@@ -1,0 +1,70 @@
+.heading
+{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three-image
+{
+    height: 200px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.needed
+{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.needed img
+{
+    height: 100%;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+}
+.needed:hover
+{
+    cursor: pointer;
+  background-color: #081b31;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    
+}
+.user,.comp
+{
+    font-size: 2rem;
+}
+.play1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#play
+{
+    background-color: #081b31;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
